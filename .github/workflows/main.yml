@@ -1,5 +1,4 @@
-```yaml
-name: Deploy Davella to GitHub Pages
+ name: Deploy Davella to GitHub Pages
 
 on:
   push:
@@ -51,4 +50,3 @@ jobs:
       - name: Deploy Davella
         id: deployment
         uses: actions/deploy-pages@v4
-```
